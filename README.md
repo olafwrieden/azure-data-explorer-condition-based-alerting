@@ -1,3 +1,5 @@
+![Header Artwork](./media/header.png)
+
 # Azure Data Explorer: Condition-based Alerting Framework
 
 > This repository contains a demo of how condition-based alerting could work with Azure Data Explorer. It is intended as a proof of concept and provided as it.
