@@ -2,13 +2,13 @@
 
 # Azure Data Explorer: Condition-based Alerting Framework
 
-> This repository contains a demo of how condition-based alerting could work with Azure Data Explorer. It is intended as a proof of concept and provided as it.
+> This repository contains a demo of how condition-based alerting could work with Azure Data Explorer. It is intended as a proof of concept and provided as is. If this resource is helpful, give it a ⭐ and let me know on [LinkedIn](https://www.linkedin.com/in/olafwrieden).
 
 ## Introduction
 
 At the time of creating this repository, Azure Data Explorer does not have a built-in alerting engine. This means that the service cannot write data out to an Event Hub, Event Grid, or Service Bus.
 
-In many instances, an organization may wish to alert someone if new data meets a pre-defined criteria / list of conditions. Given various limitations, we are aiming to solve this challenge using a combination of Azure Function Apps and Azure Data Explorer's Update Policies.
+In many instances, an organization may wish to alert someone if new data meets a pre-defined criteria / list of conditions. Given various limitations, we are aiming to solve this challenge using a combination of Azure Function Apps, Azure Data Explorer's Update Policies, and user-defined functions.
 
 ## Architecture
 
